@@ -1,0 +1,59 @@
+.App{
+    background-color: rgb(161, 160, 160);
+}
+.Cardcontainer{
+    display: flex;
+    margin: 2rem 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100vh;
+}
+.Cardcontainer .card{
+    margin: 1rem 1rem;
+    height: 15rem;
+}
+.inputform{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+.Crd:hover{
+    transform: scale(1.025);
+    transition-duration: 0.5s;
+}
+.Crd a{
+    text-decoration: none;
+    color: inherit;
+}
+.Crd a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+.Navb a{
+    text-decoration: none;
+    color: inherit;
+}
+.Navb a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+.inputform a{
+    text-decoration: none;
+    color: inherit;
+}
+.inputform a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+.Movie{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Movie h4{
+    width: 50%;
+    padding-top: 2rem;
+}
